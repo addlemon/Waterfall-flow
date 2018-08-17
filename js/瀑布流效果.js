@@ -22,6 +22,7 @@ window.onload=function () {
 
                 var a_img = document.createElement("a");
                 a_img.href = "images/"+imgDate.date[i].src;
+                a_img.target="_blank";
                 box_img.appendChild(a_img);
 
                 var img = document.createElement("img");
